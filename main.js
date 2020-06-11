@@ -1,10 +1,43 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+const iGetTheJoke = true;
+const havingFun = true;
+const learning = true;
+const killingIt = learning && havingFun;
 
+function returnFalse(lie) {
+  return false;
+}
 
+function isOpposite(notAlike) {
+  return !notAlike;
+}
 
+function both(pair1, pair2) {
+  return pair1 && pair2;
+}
 
+function either(ifAnyTrue1, ifAnyTrue2) {
+  return ifAnyTrue1 || ifAnyTrue2;
+}
+
+function firstOnly(shouldBeTrue, shouldBeFalse) {
+  return shouldBeTrue && !shouldBeFalse;
+
+}
+
+function secondOnly(isTrue, isFalse) {
+  return !isTrue && isFalse
+}
+
+function neither(isItFalse1, isItFalse2) {
+  return !isItFalse1 && !isItFalse2
+}
+
+function itsComplicated(word1, word2, word3) {
+  return !word1 || word2 && word3
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
